@@ -1,6 +1,6 @@
 Name:           perl-Version-Requirements
 Version:        0.101022
-Release:        243%{?dist}
+Release:        244%{?dist}
 Summary:        Set of version requirements for a CPAN dist (DEPRECATED)
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -62,6 +62,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.101022-244
+- Mass rebuild 2013-12-27
+
 * Tue Apr 30 2013 Petr Pisar <ppisar@redhat.com> - 0.101022-243
 - Increase release number to supersede perl sub-package (bug #957931)
 
